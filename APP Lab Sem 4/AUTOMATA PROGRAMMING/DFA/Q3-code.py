@@ -1,5 +1,6 @@
 """ 3. Write a automata code for L(M) ={0,1}* """
 
+from automata.fa.dfa import DFA
 # DFA which accepts only 1’s and 0’s 
 dfa = DFA(
     states={'q0', 'q1'},
